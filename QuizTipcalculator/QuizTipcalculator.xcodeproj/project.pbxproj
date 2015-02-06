@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDC359D71A84D03900592B21 /* number-3-button.svg in Resources */ = {isa = PBXBuildFile; fileRef = FDC359D41A84D03900592B21 /* number-3-button.svg */; };
+		FDC359D81A84D03900592B21 /* number-2-clipart-22099-number-2-button-design.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC359D51A84D03900592B21 /* number-2-clipart-22099-number-2-button-design.png */; };
+		FDC359D91A84D03900592B21 /* bullet-1-red-md.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC359D61A84D03900592B21 /* bullet-1-red-md.png */; };
+		FDC359DB1A84D0C700592B21 /* number-3-button-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = FDC359DA1A84D0C700592B21 /* number-3-button-2.svg */; };
+		FDC359DD1A84D0F500592B21 /* bullet-3-red-3-md.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC359DC1A84D0F500592B21 /* bullet-3-red-3-md.png */; };
+		FDD086DD1A84B8ED00AF9643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD086DC1A84B8ED00AF9643 /* AppDelegate.swift */; };
+		FDD086DF1A84B8ED00AF9643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD086DE1A84B8ED00AF9643 /* ViewController.swift */; };
+		FDD086E21A84B8ED00AF9643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD086E01A84B8ED00AF9643 /* Main.storyboard */; };
+		FDD086E41A84B8ED00AF9643 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD086E31A84B8ED00AF9643 /* Images.xcassets */; };
+		FDD086E71A84B8ED00AF9643 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD086E51A84B8ED00AF9643 /* LaunchScreen.xib */; };
+		FDD086F31A84B8ED00AF9643 /* QuizTipcalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD086F21A84B8ED00AF9643 /* QuizTipcalculatorTests.swift */; };
+		FDD086FD1A84BCD900AF9643 /* QuizTipcalculatormodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD086FC1A84BCD900AF9643 /* QuizTipcalculatormodel.swift */; };
+		FDD086FF1A84C55500AF9643 /* Cute-Ball-Go-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD086FE1A84C55500AF9643 /* Cute-Ball-Go-icon.png */; };
+		FDD087011A84C74400AF9643 /* Reset-Button-300x300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDD087001A84C74400AF9643 /* Reset-Button-300x300.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD086ED1A84B8ED00AF9643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD086CF1A84B8ED00AF9643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD086D61A84B8ED00AF9643;
+			remoteInfo = QuizTipcalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDC359D41A84D03900592B21 /* number-3-button.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "number-3-button.svg"; path = "../../../../Downloads/number-3-button.svg"; sourceTree = "<group>"; };
+		FDC359D51A84D03900592B21 /* number-2-clipart-22099-number-2-button-design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "number-2-clipart-22099-number-2-button-design.png"; path = "../../../../Downloads/number-2-clipart-22099-number-2-button-design.png"; sourceTree = "<group>"; };
+		FDC359D61A84D03900592B21 /* bullet-1-red-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bullet-1-red-md.png"; path = "../../../../Downloads/bullet-1-red-md.png"; sourceTree = "<group>"; };
+		FDC359DA1A84D0C700592B21 /* number-3-button-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "number-3-button-2.svg"; path = "../../../../Downloads/number-3-button-2.svg"; sourceTree = "<group>"; };
+		FDC359DC1A84D0F500592B21 /* bullet-3-red-3-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bullet-3-red-3-md.png"; path = "../../../../Downloads/bullet-3-red-3-md.png"; sourceTree = "<group>"; };
+		FDD086D71A84B8ED00AF9643 /* QuizTipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizTipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD086DB1A84B8ED00AF9643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD086DC1A84B8ED00AF9643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDD086DE1A84B8ED00AF9643 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDD086E11A84B8ED00AF9643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDD086E31A84B8ED00AF9643 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDD086E61A84B8ED00AF9643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDD086EC1A84B8ED00AF9643 /* QuizTipcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTipcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD086F11A84B8ED00AF9643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD086F21A84B8ED00AF9643 /* QuizTipcalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTipcalculatorTests.swift; sourceTree = "<group>"; };
+		FDD086FC1A84BCD900AF9643 /* QuizTipcalculatormodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTipcalculatormodel.swift; sourceTree = "<group>"; };
+		FDD086FE1A84C55500AF9643 /* Cute-Ball-Go-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cute-Ball-Go-icon.png"; path = "../../../../Downloads/Cute-Ball-Go-icon.png"; sourceTree = "<group>"; };
+		FDD087001A84C74400AF9643 /* Reset-Button-300x300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Reset-Button-300x300.jpg"; path = "../../../../Downloads/Reset-Button-300x300.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD086D41A84B8ED00AF9643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD086E91A84B8ED00AF9643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDD086CE1A84B8ED00AF9643 = {
+			isa = PBXGroup;
+			children = (
+				FDD086D91A84B8ED00AF9643 /* QuizTipcalculator */,
+				FDD086EF1A84B8ED00AF9643 /* QuizTipcalculatorTests */,
+				FDD086D81A84B8ED00AF9643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD086D81A84B8ED00AF9643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD086D71A84B8ED00AF9643 /* QuizTipcalculator.app */,
+				FDD086EC1A84B8ED00AF9643 /* QuizTipcalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD086D91A84B8ED00AF9643 /* QuizTipcalculator */ = {
+			isa = PBXGroup;
+			children = (
+				FDD086DC1A84B8ED00AF9643 /* AppDelegate.swift */,
+				FDD086DE1A84B8ED00AF9643 /* ViewController.swift */,
+				FDD086E01A84B8ED00AF9643 /* Main.storyboard */,
+				FDD086FC1A84BCD900AF9643 /* QuizTipcalculatormodel.swift */,
+				FDD086E31A84B8ED00AF9643 /* Images.xcassets */,
+				FDD086E51A84B8ED00AF9643 /* LaunchScreen.xib */,
+				FDD086DA1A84B8ED00AF9643 /* Supporting Files */,
+			);
+			path = QuizTipcalculator;
+			sourceTree = "<group>";
+		};
+		FDD086DA1A84B8ED00AF9643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC359DA1A84D0C700592B21 /* number-3-button-2.svg */,
+				FDC359D41A84D03900592B21 /* number-3-button.svg */,
+				FDC359D51A84D03900592B21 /* number-2-clipart-22099-number-2-button-design.png */,
+				FDC359DC1A84D0F500592B21 /* bullet-3-red-3-md.png */,
+				FDC359D61A84D03900592B21 /* bullet-1-red-md.png */,
+				FDD087001A84C74400AF9643 /* Reset-Button-300x300.jpg */,
+				FDD086FE1A84C55500AF9643 /* Cute-Ball-Go-icon.png */,
+				FDD086DB1A84B8ED00AF9643 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDD086EF1A84B8ED00AF9643 /* QuizTipcalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD086F21A84B8ED00AF9643 /* QuizTipcalculatorTests.swift */,
+				FDD086F01A84B8ED00AF9643 /* Supporting Files */,
+			);
+			path = QuizTipcalculatorTests;
+			sourceTree = "<group>";
+		};
+		FDD086F01A84B8ED00AF9643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD086F11A84B8ED00AF9643 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD086D61A84B8ED00AF9643 /* QuizTipcalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD086F61A84B8ED00AF9643 /* Build configuration list for PBXNativeTarget "QuizTipcalculator" */;
+			buildPhases = (
+				FDD086D31A84B8ED00AF9643 /* Sources */,
+				FDD086D41A84B8ED00AF9643 /* Frameworks */,
+				FDD086D51A84B8ED00AF9643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizTipcalculator;
+			productName = QuizTipcalculator;
+			productReference = FDD086D71A84B8ED00AF9643 /* QuizTipcalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD086EB1A84B8ED00AF9643 /* QuizTipcalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD086F91A84B8ED00AF9643 /* Build configuration list for PBXNativeTarget "QuizTipcalculatorTests" */;
+			buildPhases = (
+				FDD086E81A84B8ED00AF9643 /* Sources */,
+				FDD086E91A84B8ED00AF9643 /* Frameworks */,
+				FDD086EA1A84B8ED00AF9643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD086EE1A84B8ED00AF9643 /* PBXTargetDependency */,
+			);
+			name = QuizTipcalculatorTests;
+			productName = QuizTipcalculatorTests;
+			productReference = FDD086EC1A84B8ED00AF9643 /* QuizTipcalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD086CF1A84B8ED00AF9643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FDD086D61A84B8ED00AF9643 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FDD086EB1A84B8ED00AF9643 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FDD086D61A84B8ED00AF9643;
+					};
+				};
+			};
+			buildConfigurationList = FDD086D21A84B8ED00AF9643 /* Build configuration list for PBXProject "QuizTipcalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD086CE1A84B8ED00AF9643;
+			productRefGroup = FDD086D81A84B8ED00AF9643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD086D61A84B8ED00AF9643 /* QuizTipcalculator */,
+				FDD086EB1A84B8ED00AF9643 /* QuizTipcalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD086D51A84B8ED00AF9643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD086E21A84B8ED00AF9643 /* Main.storyboard in Resources */,
+				FDD086E71A84B8ED00AF9643 /* LaunchScreen.xib in Resources */,
+				FDC359D91A84D03900592B21 /* bullet-1-red-md.png in Resources */,
+				FDD086FF1A84C55500AF9643 /* Cute-Ball-Go-icon.png in Resources */,
+				FDD087011A84C74400AF9643 /* Reset-Button-300x300.jpg in Resources */,
+				FDC359D81A84D03900592B21 /* number-2-clipart-22099-number-2-button-design.png in Resources */,
+				FDC359DD1A84D0F500592B21 /* bullet-3-red-3-md.png in Resources */,
+				FDC359DB1A84D0C700592B21 /* number-3-button-2.svg in Resources */,
+				FDD086E41A84B8ED00AF9643 /* Images.xcassets in Resources */,
+				FDC359D71A84D03900592B21 /* number-3-button.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD086EA1A84B8ED00AF9643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD086D31A84B8ED00AF9643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD086DF1A84B8ED00AF9643 /* ViewController.swift in Sources */,
+				FDD086DD1A84B8ED00AF9643 /* AppDelegate.swift in Sources */,
+				FDD086FD1A84BCD900AF9643 /* QuizTipcalculatormodel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD086E81A84B8ED00AF9643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD086F31A84B8ED00AF9643 /* QuizTipcalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD086EE1A84B8ED00AF9643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD086D61A84B8ED00AF9643 /* QuizTipcalculator */;
+			targetProxy = FDD086ED1A84B8ED00AF9643 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDD086E01A84B8ED00AF9643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD086E11A84B8ED00AF9643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDD086E51A84B8ED00AF9643 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD086E61A84B8ED00AF9643 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD086F41A84B8ED00AF9643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDD086F51A84B8ED00AF9643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD086F71A84B8ED00AF9643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QuizTipcalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDD086F81A84B8ED00AF9643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QuizTipcalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDD086FA1A84B8ED00AF9643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuizTipcalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizTipcalculator.app/QuizTipcalculator";
+			};
+			name = Debug;
+		};
+		FDD086FB1A84B8ED00AF9643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuizTipcalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizTipcalculator.app/QuizTipcalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD086D21A84B8ED00AF9643 /* Build configuration list for PBXProject "QuizTipcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD086F41A84B8ED00AF9643 /* Debug */,
+				FDD086F51A84B8ED00AF9643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD086F61A84B8ED00AF9643 /* Build configuration list for PBXNativeTarget "QuizTipcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD086F71A84B8ED00AF9643 /* Debug */,
+				FDD086F81A84B8ED00AF9643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD086F91A84B8ED00AF9643 /* Build configuration list for PBXNativeTarget "QuizTipcalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD086FA1A84B8ED00AF9643 /* Debug */,
+				FDD086FB1A84B8ED00AF9643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD086CF1A84B8ED00AF9643 /* Project object */;
+}

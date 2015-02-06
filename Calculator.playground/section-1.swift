@@ -21,6 +21,7 @@ class Calculator {
     func clssuop(){
         
         var total = 0.0
+        
         if(t3 == "+"){
             total = c1.add()
         }
