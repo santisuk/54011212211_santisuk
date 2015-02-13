@@ -15,7 +15,6 @@
 		FD65B5181A8DD38200D72043 /* IOS8SwiftPrototypeCellsTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65B5171A8DD38200D72043 /* IOS8SwiftPrototypeCellsTutorialTests.swift */; };
 		FD65B53A1A8DE41900D72043 /* truck2.png in Resources */ = {isa = PBXBuildFile; fileRef = FD65B5371A8DE41900D72043 /* truck2.png */; };
 		FD65B53B1A8DE41900D72043 /* helicopter.png in Resources */ = {isa = PBXBuildFile; fileRef = FD65B5381A8DE41900D72043 /* helicopter.png */; };
-		FD65B53E1A8DEA7E00D72043 /* LikeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD65B53D1A8DEA7E00D72043 /* LikeIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +39,6 @@
 		FD65B5171A8DD38200D72043 /* IOS8SwiftPrototypeCellsTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS8SwiftPrototypeCellsTutorialTests.swift; sourceTree = "<group>"; };
 		FD65B5371A8DE41900D72043 /* truck2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = truck2.png; sourceTree = "<group>"; };
 		FD65B5381A8DE41900D72043 /* helicopter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helicopter.png; sourceTree = "<group>"; };
-		FD65B53D1A8DEA7E00D72043 /* LikeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LikeIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +93,6 @@
 		FD65B4FF1A8DD38200D72043 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD65B53D1A8DEA7E00D72043 /* LikeIcon.png */,
 				FD65B5371A8DE41900D72043 /* truck2.png */,
 				FD65B5381A8DE41900D72043 /* helicopter.png */,
 			);
@@ -201,7 +198,6 @@
 			files = (
 				FD65B53B1A8DE41900D72043 /* helicopter.png in Resources */,
 				FD65B53A1A8DE41900D72043 /* truck2.png in Resources */,
-				FD65B53E1A8DEA7E00D72043 /* LikeIcon.png in Resources */,
 				FD65B5071A8DD38200D72043 /* Main.storyboard in Resources */,
 				FD65B50C1A8DD38200D72043 /* LaunchScreen.xib in Resources */,
 				FD65B5091A8DD38200D72043 /* Images.xcassets in Resources */,
@@ -415,6 +411,7 @@
 				FD65B51D1A8DD38200D72043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD65B51E1A8DD38200D72043 /* Build configuration list for PBXNativeTarget "IOS8SwiftPrototypeCellsTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +420,7 @@
 				FD65B5201A8DD38200D72043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

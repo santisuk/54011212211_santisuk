@@ -11,7 +11,7 @@ import UIKit
 class ViewController:UIViewController, UITableViewDelegate {
     
     let cellIdentifier = "cellIdentifier"
-    var tableData = ["Helicopter" ,"Truck2", "Likeicon"]
+    var tableData = ["Helicopter" ,"Truck2"]
     
     
     

@@ -15,7 +15,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalTextField: UITextField!
     @IBOutlet weak var taxPctSlider: UISlider!
     @IBOutlet weak var taxPctLabel: UILabel!
-    @IBOutlet weak var resultsTextView: UITextView!
+   
+    @IBOutlet weak var resulitsTextview: UITextView!
+   
+    
+    
     
     ///Action
     
@@ -33,7 +37,7 @@ class ViewController: UIViewController {
             results += "\(tipPct)%: \(tipvalue)\n"
         }
         //5
-        resultsTextView.text = results
+        resulitsTextview.text = results
     }
     @IBAction func taxPercentagechanged(sender: AnyObject) {
         tipcalc.taxPct = Double(taxPctSlider.value)/100
@@ -55,7 +59,7 @@ class ViewController: UIViewController {
         //3
         taxPctLabel.text = "Tax Percentage(\(Int(taxPctSlider.value))%)"
         //4
-        resultsTextView.text = ""
+        resulitsTextview.text = ""
     }
     
     
