@@ -13,6 +13,7 @@
 		FD8D55061A84959700FD08B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8D55051A84959700FD08B9 /* Images.xcassets */; };
 		FD8D55091A84959700FD08B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD8D55071A84959700FD08B9 /* LaunchScreen.xib */; };
 		FD8D55151A84959800FD08B9 /* TipcalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8D55141A84959800FD08B9 /* TipcalculatorTests.swift */; };
+		FDC2F5751AB958A2004B8D10 /* LOGO_it-3.png in Resources */ = {isa = PBXBuildFile; fileRef = FDC2F5741AB958A2004B8D10 /* LOGO_it-3.png */; };
 		FDD086C91A84A7F700AF9643 /* Tipcalculatormodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD086C81A84A7F700AF9643 /* Tipcalculatormodel.swift */; };
 		FDD086CD1A84B73500AF9643 /* Cute-Ball-Go-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD086CC1A84B73500AF9643 /* Cute-Ball-Go-icon.png */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		FD8D550E1A84959800FD08B9 /* TipcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8D55131A84959800FD08B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8D55141A84959800FD08B9 /* TipcalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipcalculatorTests.swift; sourceTree = "<group>"; };
+		FDC2F5741AB958A2004B8D10 /* LOGO_it-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LOGO_it-3.png"; path = "../../../LOGO_it-3.png"; sourceTree = "<group>"; };
 		FDD086C81A84A7F700AF9643 /* Tipcalculatormodel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tipcalculatormodel.swift; sourceTree = "<group>"; };
 		FDD086CC1A84B73500AF9643 /* Cute-Ball-Go-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cute-Ball-Go-icon.png"; path = "../../../../Downloads/Cute-Ball-Go-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 		FD8D54FC1A84959700FD08B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDC2F5741AB958A2004B8D10 /* LOGO_it-3.png */,
 				FDD086CC1A84B73500AF9643 /* Cute-Ball-Go-icon.png */,
 				FD8D54FD1A84959700FD08B9 /* Info.plist */,
 			);
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC2F5751AB958A2004B8D10 /* LOGO_it-3.png in Resources */,
 				FD8D55041A84959700FD08B9 /* Main.storyboard in Resources */,
 				FD8D55091A84959700FD08B9 /* LaunchScreen.xib in Resources */,
 				FDD086CD1A84B73500AF9643 /* Cute-Ball-Go-icon.png in Resources */,
