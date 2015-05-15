@@ -1,25 +1,540 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mJ7-Pz-hOD">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ITMSU" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bg-GD-MFP">
+                                <rect key="frame" x="1" y="64" width="413" height="127"/>
+                                <state key="normal" title="Button" image="header.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DfA-Pa-1e9">
+                                <rect key="frame" x="4" y="209" width="406" height="44"/>
+                                <items>
+                                    <navigationItem title="หลักสูตรคณะวิทยาการสารสนเทศ" id="23a-bw-d5i"/>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iQH-M3-bqV">
+                                <rect key="frame" x="4" y="301" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="วท.บ.วิทยาการสคอมพิวเตอร์" id="Ags-1Q-W58">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="94l-Sc-ohR">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IZv-P3-qsK">
+                                                <rect key="frame" x="-23" y="-15" width="92" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="ดู">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="is4-WK-Jft" kind="showDetail" id="nnJ-Qg-H7a"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5qk-O6-bLq">
+                                <rect key="frame" x="1" y="358" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="วท.บ.เทคโนโลยีสารสนเทศ" id="37w-H2-tGl">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="gle-kf-UNv">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ome-Pi-7ox">
+                                                <rect key="frame" x="-23" y="-15" width="92" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="ดู">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="6u0-7A-o3I" kind="showDetail" id="umP-VO-b3M"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RyO-jI-aAQ">
+                                <rect key="frame" x="0.0" y="414" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="วท.บ.คอมพิวเตอร์แอนิเมชันและเกม" id="m6X-7x-1lg">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="hA9-Jl-Huc">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LWF-oF-9lS">
+                                                <rect key="frame" x="-23" y="-15" width="92" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="ดู">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="uhA-js-crl" kind="showDetail" id="QHB-iU-XS0"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PND-pi-5fg">
+                                <rect key="frame" x="1" y="477" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="วท.บ.ภูมิสารสนเทศ" id="8Dx-hs-889">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="M3r-BA-gkS">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kqq-hm-Dsx">
+                                                <rect key="frame" x="-23" y="-15" width="92" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="ดู">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="bid-nh-F2D" kind="showDetail" id="Pwa-AL-rb4"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gLp-6D-lt1">
+                                <rect key="frame" x="0.0" y="546" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="นศ.บ.นิเทศศาสตร์" id="1qp-EO-2vr">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="Cd6-Ua-G2j">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ILk-bZ-fwA">
+                                                <rect key="frame" x="-23" y="-15" width="92" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="ดู">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="C3S-Et-j2g" kind="showDetail" id="9ai-rQ-jLI"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FAz-JT-VJQ">
+                                <rect key="frame" x="4" y="610" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="ศศ.บ.สารสนเทศศาสตร์" id="vFQ-R2-hca">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="X3H-3p-mD4">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wlX-5G-Imb">
+                                                <rect key="frame" x="-23" y="-15" width="92" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="ดู">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="U0K-7x-dAp" kind="showDetail" id="BtB-DQ-DW1"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="lbl-Al-JhZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="840" y="428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zpc-By-oBJ">
+            <objects>
+                <viewController id="U0K-7x-dAp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tHm-dx-kAS"/>
+                        <viewControllerLayoutGuide type="bottom" id="xOQ-WZ-ogM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fb1-Ot-IqA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6gf-gk-gPj">
+                                <rect key="frame" x="0.0" y="63" width="414" height="110"/>
+                                <state key="normal" title="Button" image="header.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bbh-1J-yQM">
+                                <rect key="frame" x="0.0" y="185" width="398" height="44"/>
+                                <items>
+                                    <navigationItem title="สารสนเทศศาสตร์" id="Gu1-fC-b3L">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="atk-Nf-0eq">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LBn-ju-hEM">
+                                                <rect key="frame" x="189" y="403" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="กลับ">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXZ-lx-hvc" kind="showDetail" id="9Tx-H8-UpZ"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="3fV-LX-Ahm">
+                                <rect key="frame" x="16" y="258" width="331" height="394"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">ปรัชญา 
+หลักสูตรนี้มุ่งผลิตบัณฑิตให้เป็นผู้มีความรู้ความสามารถ รวมทั้งมีคุณธรรมและจริยธรรมในการจัดการสารสนเทศและแหล่งการเรียนรู้ โดยการประยุกต์ใช้เทคโนโลยีสารสนเทศและการสื่อสารได้อย่างมีประสิทธิภาพ
+วัตถุประสงค์ 
+เพื่อผลิตบัณฑิตหลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาสารสนเทศศาสตร์ ให้มีคุณลักษณะและคุณสมบัติดังต่อไปนี้
+1. มีความรู้ความสามารถ ในการปฏิบัติงานในหน่วยงานบริการสารสนเทศ ตลอดจนสามารถประกอบอาชีพอิสระ
+2. มีทักษะการวิจัย การสืบค้นสารสนเทศ และสามารถประยุกต์ความรู้ทางเทคโนโลยีสารสนเทศในการปฏิบัติงาน
+3. มีคุณธรรม จริยธรรม และความศรัทธาในวิชาชีพสารสนเทศศาสตร์</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="98Z-pY-jiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1317" y="428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YMa-p8-Er8">
+            <objects>
+                <viewController id="bid-nh-F2D" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sgQ-6T-8yR"/>
+                        <viewControllerLayoutGuide type="bottom" id="s1o-mx-WQ5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YQs-Od-LxW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1zy-pf-in4">
+                                <rect key="frame" x="2" y="173" width="396" height="44"/>
+                                <items>
+                                    <navigationItem title="ภูมิสารสนเทศ" id="QOt-id-kQu">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="38J-yd-koi">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XQQ-Of-7d6">
+                                                <rect key="frame" x="110" y="257" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="กลับ">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXZ-lx-hvc" kind="showDetail" id="Ufs-gq-Xbh"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5F-2N-Wk3">
+                                <rect key="frame" x="2" y="59" width="412" height="104"/>
+                                <state key="normal" title="Button" image="header.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="jwh-Rh-ZkT">
+                                <rect key="frame" x="25" y="246" width="351" height="360"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">ปรัชญา 
+เสริมสร้างองค์ความรู้คู่คุณธรรม เพื่อประยุกต์ใช้ศาสตร์ภูมิสารสนเทศ  ให้เกิดประโยชน์ต่อสังคมและท้องถิ่นอย่างยั่งยืน
+วัตถุประสงค์ 
+เพื่อผลิตบัณฑิตให้มีคุณลักษณะและความรู้ความสามารถ ดังนี้
+1. ผลิตบัณฑิตที่มีความรู้ความสามารถทางด้านภูมิสารสนเทศ ประกอบด้วย การวิเคราะห์ข้อมูลจากภาพถ่ายดาวเทียม ภาพถ่ายทางอากาศ การกำหนดตำแหน่งบนพื้นโลกด้วยดาวเทียม และระบบสารสนเทศภูมิศาสตร์
+2. ผลิตบัณฑิตให้สามารถทำงานตอบสนองต่อความต้องการของหน่วยงานภาครัฐและเอกชนใน การจัดการเชิงพื้นที่ทั้งในระดับท้องถิ่นและระดับชาติ
+3. ผลิตบัณฑิตที่สามารถบูรณการองค์ความรู้ด้านภูมิสารสนเทศร่วมกับเทคโนโลยีสารสนเทศเพื่อการพัฒนาชุมชน
+4. ผลิตบัณฑิตให้เป็นผู้มีความรับผิดชอบในการพัฒนาตนเอง  เสียสละต่อสังคม และวิชาชีพสาขาภูมิสารสนเทศ
+5. ผลิตบัณฑิตที่มีสำนึกในการพัฒนาและก้าวทันเทคโนโลยีภูมิสารสนเทศ</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ddv-sP-l1J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="396" y="1264"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="40d-AZ-KFc">
+            <objects>
+                <viewController id="uhA-js-crl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="esZ-a0-95H"/>
+                        <viewControllerLayoutGuide type="bottom" id="g4m-73-Rlb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8jn-J5-TqR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="acE-Rh-Myr">
+                                <rect key="frame" x="-6" y="174" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="คอมพิวเตอร์แอนิเมชันและเกม" id="aQu-dE-aan">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="fGb-Dd-fFb">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VGL-xy-sSe">
+                                                <rect key="frame" x="-23" y="-15" width="92" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="กลับ">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXZ-lx-hvc" kind="showDetail" id="zhP-QY-ZuO"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZg-1u-z52">
+                                <rect key="frame" x="1" y="61" width="413" height="101"/>
+                                <state key="normal" title="Button" image="header.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="vSu-P2-2mN">
+                                <rect key="frame" x="45" y="256" width="291" height="346"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">ปรัชญา
+มุ่งผลิตและพัฒนาบุคลากรที่มีศักยภาพ ในการพัฒนาสื่อเทคโนโลยีสารสนเทศที่นำสมัย ด้วยความคิดเชิงสร้างสรรค์ และจัดการบนพื้นฐานความรู้ด้านเทคโนโลยีการสื่อสารยุคใหม่
+วัตถุประสงค์ 
+เพื่อผลิตบัณฑิตให้มีคุณลักษณะและความรู้ความสามารถ ดังนี้
+1. เป็นนักสร้างสรรค์งานสื่อเทคโนโลยีสารสนเทศที่มีประสิทธิภาพ
+2. เป็นนักคิด นักจัดการงานสื่อและธุรกรรมอิเล็กทรอนิกส์ โดยอาศัยเทคโนโลยีสารสนเทศ และการสื่อสารที่นำสมัย
+3. เป็นบุคลากรด้านสารสนเทศที่มีจิตสำนึกในคุณธรรม มีจริยธรรมวิชาชีพ และมีความรับผิดชอบต่อส่วนรวม</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Awg-cl-fYP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="859" y="1264"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uEX-dj-liI">
+            <objects>
+                <viewController id="is4-WK-Jft" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Z1-c6-jHV"/>
+                        <viewControllerLayoutGuide type="bottom" id="CZY-ep-T0w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cDS-D8-7ky">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRG-nO-aAa">
+                                <rect key="frame" x="0.0" y="64" width="414" height="101"/>
+                                <state key="normal" title="Button" image="header.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u7R-R7-nFT">
+                                <rect key="frame" x="0.0" y="173" width="414" height="44"/>
+                                <items>
+                                    <navigationItem id="apF-v6-uMZ">
+                                        <string key="title">หลักสูตรวิทยาการคอมพิวเตอร์
+</string>
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="zb1-yh-SCS">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gjd-Sg-QIH">
+                                                <rect key="frame" x="125" y="7" width="165" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="กลับ">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXZ-lx-hvc" kind="showDetail" id="atr-Ev-PtY"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="JsU-Jz-12u">
+                                <rect key="frame" x="40" y="228" width="295" height="260"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">ปรัชญา                                   
+ มุ่งผลิตบัณฑิตให้มีความรู้ความสามารถ  ด้านวิทยาการคอมพิวเตอร์ ทั้งภาคทฤษฎีและปฏิบัติ มีความคิดริเริ่มสร้างสรรค์และคิดวิเคราะห์อย่างเป็นระบบ มีความสามารถทางวิชาการ สนใจใฝ่หาความรู้ มีคุณธรรม และนำไปประยุกต์ใช้ในสังคมปัจจุบันได้</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Elt-u9-mPz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1755" y="1264"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zpb-eT-6Aa">
+            <objects>
+                <viewController id="C3S-Et-j2g" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6D2-P8-SiI"/>
+                        <viewControllerLayoutGuide type="bottom" id="7sn-u4-IVG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b8X-p6-M0U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVY-rn-zBn">
+                                <rect key="frame" x="0.0" y="63" width="414" height="102"/>
+                                <state key="normal" title="Button" image="header.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybf-UX-0XV">
+                                <rect key="frame" x="0.0" y="171" width="398" height="44"/>
+                                <items>
+                                    <navigationItem title="นิเทศศาสตร์" id="pbn-Au-ANc">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="q8E-8T-PFo">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mn9-Wc-vFA">
+                                                <rect key="frame" x="149" y="608" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="กลับ">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXZ-lx-hvc" kind="showDetail" id="H3z-X1-xwf"/>
+                                                </connections>
+                                            </button>
+                                            <connections>
+                                                <segue destination="vXZ-lx-hvc" kind="showDetail" id="k2Y-oH-P2C"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="35i-fL-8BK">
+                                <rect key="frame" x="27" y="244" width="335" height="455"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">ปรัชญา 
+นำองค์ความรู้ บูรณาการกับภูมิปัญญาท้องถิ่นอย่างสร้างสรรค์ ด้วยจรรยาบรรณแห่งวิชาชีพนิเทศศาสตร์
+วัตถุประสงค์ 
+เพื่อผลิตบัณฑิตหลักสูตรนิเทศศาสตรบัณฑิต ที่มีคุณลักษณะ ดังนี้
+1. มีความรู้ ความสามารถและทักษะในวิชาชีพนิเทศศาสตร์ สอดคล้องกับความต้องการและการเปลี่ยนแปลงของสังคมในระดับชุมชน ภูมิภาค และประเทศ
+2. มีความรู้ความสามารถในการวิเคราะห์ประเด็นปัญหาหรือสถานการณ์ทางสังคมรวมทั้งวิจัยเรื่องที่เกี่ยวข้องกับนิเทศศาสตร์
+3. ให้บริการทางด้านวิชาการด้านการสื่อสารมวลชนแก่ท้องถิ่น
+4. มีคุณธรรม จริยธรรม และจรรยาบรรณในวิชาชีพนิเทศศาสตร์
+โครงสร้างหลักสูตร 
+มี 2 โครงสร้าง คือ โครงสร้างโปรแกรมปกติ ในกรณีที่นิสิตลงทะเบียนเรียนวิชา 1203 404 การฝึกวิชาชีพ นิสิตจะมีจำนวนหน่วยกิตรวมไม่น้อยกว่า 123 หน่วยกิต และโครงสร้างโปรแกรมสหกิจศึกษาในกรณีที่นิสิตลงทะเบียนเรียนวิชา 0199 499 สหกิจศึกษา นิสิตจะมีจำนวนหน่วยกิตรวมไม่น้อยกว่า 129 หน่วยกิต</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A78-Z1-BEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2214" y="1264"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SOj-aS-vGX">
+            <objects>
+                <viewController id="6u0-7A-o3I" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0iT-FV-8OF"/>
+                        <viewControllerLayoutGuide type="bottom" id="nfU-ff-WBN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Te0-AS-GZO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6TG-Vm-zDA">
+                                <rect key="frame" x="2" y="61" width="412" height="100"/>
+                                <state key="normal" title="Button" image="header.jpg">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="B7P-AH-f9X">
+                                <rect key="frame" x="16" y="235" width="348" height="493"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">ปรัชญา
+สาขาวิชาเทคโนโลยีสารสนเทศ คณะวิทยาการสารสนเทศ มหาวิทยาลัยมหาสารคาม มีความมุ่งมั่นในการผลิตบัณฑิตที่มีความรู้ ความสามารถด้านเทคโนโลยีสารสนเทศ สามารถประยุกต์งานด้านซอฟต์แวร์และการบริหารเทคโนโลยีสารสนเทศ ให้เป็นผู้ใฝ่รู้ สามารถพัฒนาตนเองให้เป็นคนดี มีคุณธรรม จริยธรรมในวิชาชีพเทคโนโลยีสารสนเทศ และมีความรู้ความสามารถทัดเทียมในระดับสากล รวมทั้งมุ่งสร้างสรรค์งานวิจัยและบริการวิชาการสู่สังคม
+วัตถุประสงค์
+1. เพื่อผลิตบัณฑิตให้มีความรู้ ความสามารถด้านเทคโนโลยีสารสนเทศ
+2. เพื่อผลิตบัณฑิตให้มีความรู้ ความสามารถในการประยุกต์ใช้เทคโนโลยีสารสนเทศเพื่อการบริหารจัดการสำหรับองค์กร
+3. เพื่อผลิตบัณฑิตให้มีความรู้ ความสามารถในการพัฒนาระบบสารสนเทศให้ได้มาตรฐานระดับสากล
+4. เพื่อผลิตบัณฑิตให้มีความรู้ ความสามารถในการวิจัย ศึกษาต่อ และการพัฒนาความรู้ที่สูงขึ้นได้
+5. เพื่อพัฒนาบัณฑิตที่มีคุณธรรม มีความรับผิดชอบต่อสังคม และเจตคติที่ดีต่อวิชาชีพ</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xgs-nP-WBD">
+                                <rect key="frame" x="-25" y="173" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="หลักสูตรเทคโนโลยีสารสนเทศ" id="y7x-HU-BdO">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="2ud-Aj-7H1">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Aos-JX-dBd">
+                                                <rect key="frame" x="300" y="368" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="กลับ">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXZ-lx-hvc" kind="showDetail" id="BVd-cR-9TT"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v71-ip-2JE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1312" y="1264"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DuF-FY-ECz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mJ7-Pz-hOD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fRP-N9-USv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="TkL-76-Bwk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ays-HA-Ufd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="355" y="428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="header.jpg" width="1200" height="212"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="BVd-cR-9TT"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>60FC12E6-84CD-496D-8DAF-7F227480F791</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Ex_coreData</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F20A8A7184DBC98D52B3706DB14199BBEFF4CA56</key>
+		<string>https://github.com/santisuk/54011212211_santisuk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Ex_coreData/Ex_coreData.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F20A8A7184DBC98D52B3706DB14199BBEFF4CA56</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/santisuk/54011212211_santisuk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F20A8A7184DBC98D52B3706DB14199BBEFF4CA56</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F20A8A7184DBC98D52B3706DB14199BBEFF4CA56</string>
+			<key>IDESourceControlWCCName</key>
+			<string>54011212211_santisuk</string>
+		</dict>
+	</array>
+</dict>
+</plist>

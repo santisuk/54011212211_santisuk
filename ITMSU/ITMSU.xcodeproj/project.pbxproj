@@ -13,6 +13,7 @@
 		FDC2F55C1AB95773004B8D10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC2F55B1AB95773004B8D10 /* Images.xcassets */; };
 		FDC2F55F1AB95773004B8D10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC2F55D1AB95773004B8D10 /* LaunchScreen.xib */; };
 		FDC2F56B1AB95773004B8D10 /* ITMSUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2F56A1AB95773004B8D10 /* ITMSUTests.swift */; };
+		FDC4471A1AE0E5E900D62EC7 /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDC447191AE0E5E900D62EC7 /* header.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FDC2F5641AB95773004B8D10 /* ITMSUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITMSUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC2F5691AB95773004B8D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDC2F56A1AB95773004B8D10 /* ITMSUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITMSUTests.swift; sourceTree = "<group>"; };
+		FDC447191AE0E5E900D62EC7 /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = header.jpg; path = ../../../header.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		FDC2F5521AB95773004B8D10 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDC447191AE0E5E900D62EC7 /* header.jpg */,
 				FDC2F5531AB95773004B8D10 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +197,7 @@
 			files = (
 				FDC2F55A1AB95773004B8D10 /* Main.storyboard in Resources */,
 				FDC2F55F1AB95773004B8D10 /* LaunchScreen.xib in Resources */,
+				FDC4471A1AE0E5E900D62EC7 /* header.jpg in Resources */,
 				FDC2F55C1AB95773004B8D10 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				FDC2F5701AB95773004B8D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDC2F5711AB95773004B8D10 /* Build configuration list for PBXNativeTarget "ITMSUTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				FDC2F5731AB95773004B8D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
